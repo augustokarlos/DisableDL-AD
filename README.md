@@ -1,8 +1,7 @@
 # DisableDL-AD 
 ## Disable Dont Listed User AD
 --------------------
-É comum o CPF ser a chave primaria para a identificação de uma pessoa em um banco de dados relacional.
-Portanto sistemas de folha de pagamento em sua maioria controla a o status do funcionário para com a empresa através do CPF.<br> O DisableDL-AD é um script basico que desativa usuários não listados em uma determinada lista gerada em csv, que contem o cpf de usuários ativos de um determinado sistema de folha de pagamento. Caso na lista gerada determinado usuário do AD não seja listado o mesmo será automaticamente desativado.
+É comum o CPF ser a chave primaria para a identificação de uma pessoa em um banco de dados relacional.Portanto sistemas de folha de pagamento em sua maioria controla a o status do funcionário para com a empresa através do CPF.<br> O DisableDL-AD é um script basico que desativa usuários não listados em uma determinada lista gerada em csv, que contem o cpf de usuários ativos de um determinado sistema de folha de pagamento. Caso na lista gerada determinado usuário do AD não seja listado o mesmo será automaticamente desativado.
 ---------------------
 # Na prática
 
