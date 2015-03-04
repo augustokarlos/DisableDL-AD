@@ -1,4 +1,5 @@
-# DisableDL-AD
+# DisableDL-AD 
+## Disable Dont Listed User AD
 --------------------
 No Brasil é comum o CPF ser a chave primaria para a identificação de uma pessoa em um banco de dados relacional.
 Portanto sistemas de folha de pagamento em sua maioria controla a o status do funcionário para com a empresa através do CPF. 
