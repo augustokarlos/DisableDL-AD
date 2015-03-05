@@ -102,6 +102,11 @@ descricao = String(11 - Len(CStr(descricao)), "0") & CStr(descricao)
 If IsInArray(descricao,a) Then
 		'objLog.writeline objRecordSet.Fields("sAMAccountName").Value + " ok"
 	Else
+			'strUserPath = objRecordSet.Fields("AdsPath").Value
+			'Set objUser = GetObject(strUserPath)
+			'objUser.AccountDisabled = True
+			'objUser.SetInfo
+			'objRecordSet.MoveNext
 		objLog.writeline objRecordSet.Fields("sAMAccountName").Value + " desabilitado"
 	End If
 
